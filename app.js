@@ -39,7 +39,7 @@ app.post("/process", (req,res) => {
     
     const options = {
         method: "POST",
-        auth: "Wyvern:470ac9629446210dbc73b4c1efa9f6db-us12"
+        auth: "Wyvern:dcd0612753744b8f43ba693e9d3a0e18-us12"
     }
 
     const request = https.request(url, options, (response) => {
